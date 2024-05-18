@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        '': ['data.csv'],
+        'language_detection_package': ['data.csv'],
     },
     license='None',
     description='Fontys AI Language Detection Package',
