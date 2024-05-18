@@ -25,7 +25,7 @@ setup(
         'pandas',
         'scikit-learn',
         'nltk',
-        'pytorch'
+        'torch'
     ],
     python_requires='>=3.7',
 )
