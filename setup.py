@@ -4,6 +4,10 @@ setup(
     name='language_detection_package',
     version='0.1',
     packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        '': ['data/*.csv'],
+    },
     license='None',
     description='Fontys AI Language Detection Package',
     long_description=open('README.md').read(),
